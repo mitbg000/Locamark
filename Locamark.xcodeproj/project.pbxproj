@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3DA73AD2D7C38620039934B /* LocationModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C3DA73AB2D7C38620039934B /* LocationModel.xcdatamodeld */; };
+		C3DA73B42D7C3E570039934B /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = C3DA73B32D7C3E570039934B /* Localizable.xcstrings */; };
+		C3DA73D42D7C4F590039934B /* LocationEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DA73D02D7C4F590039934B /* LocationEntity+CoreDataClass.swift */; };
+		C3DA73D62D7C4F590039934B /* LocationEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DA73D12D7C4F590039934B /* LocationEntity+CoreDataProperties.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3DA738D2D7BD7B00039934B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3DA73742D7BD7AF0039934B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3DA737B2D7BD7AF0039934B;
+			remoteInfo = Locamark;
+		};
+		C3DA73972D7BD7B00039934B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3DA73742D7BD7AF0039934B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3DA737B2D7BD7AF0039934B;
+			remoteInfo = Locamark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3DA737C2D7BD7AF0039934B /* Locamark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Locamark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3DA738C2D7BD7B00039934B /* LocamarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocamarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3DA73962D7BD7B00039934B /* LocamarkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocamarkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3DA73AC2D7C38620039934B /* LocationModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LocationModel.xcdatamodel; sourceTree = "<group>"; };
+		C3DA73B32D7C3E570039934B /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		C3DA73D02D7C4F590039934B /* LocationEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LocationEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C3DA73D12D7C4F590039934B /* LocationEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LocationEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C3DA73AA2D7BD7F70039934B /* Exceptions for "Locamark" folder in "Locamark" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C3DA737B2D7BD7AF0039934B /* Locamark */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C3DA737E2D7BD7AF0039934B /* Locamark */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C3DA73AA2D7BD7F70039934B /* Exceptions for "Locamark" folder in "Locamark" target */,
+			);
+			path = Locamark;
+			sourceTree = "<group>";
+		};
+		C3DA738F2D7BD7B00039934B /* LocamarkTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LocamarkTests;
+			sourceTree = "<group>";
+		};
+		C3DA73992D7BD7B00039934B /* LocamarkUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LocamarkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3DA73792D7BD7AF0039934B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3DA73892D7BD7B00039934B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3DA73932D7BD7B00039934B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3DA73732D7BD7AF0039934B = {
+			isa = PBXGroup;
+			children = (
+				C3DA73D02D7C4F590039934B /* LocationEntity+CoreDataClass.swift */,
+				C3DA73D12D7C4F590039934B /* LocationEntity+CoreDataProperties.swift */,
+				C3DA73B32D7C3E570039934B /* Localizable.xcstrings */,
+				C3DA73AB2D7C38620039934B /* LocationModel.xcdatamodeld */,
+				C3DA737E2D7BD7AF0039934B /* Locamark */,
+				C3DA738F2D7BD7B00039934B /* LocamarkTests */,
+				C3DA73992D7BD7B00039934B /* LocamarkUITests */,
+				C3DA737D2D7BD7AF0039934B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3DA737D2D7BD7AF0039934B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3DA737C2D7BD7AF0039934B /* Locamark.app */,
+				C3DA738C2D7BD7B00039934B /* LocamarkTests.xctest */,
+				C3DA73962D7BD7B00039934B /* LocamarkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3DA737B2D7BD7AF0039934B /* Locamark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3DA73A02D7BD7B00039934B /* Build configuration list for PBXNativeTarget "Locamark" */;
+			buildPhases = (
+				C3DA73782D7BD7AF0039934B /* Sources */,
+				C3DA73792D7BD7AF0039934B /* Frameworks */,
+				C3DA737A2D7BD7AF0039934B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C3DA737E2D7BD7AF0039934B /* Locamark */,
+			);
+			name = Locamark;
+			packageProductDependencies = (
+			);
+			productName = Locamark;
+			productReference = C3DA737C2D7BD7AF0039934B /* Locamark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3DA738B2D7BD7B00039934B /* LocamarkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3DA73A32D7BD7B00039934B /* Build configuration list for PBXNativeTarget "LocamarkTests" */;
+			buildPhases = (
+				C3DA73882D7BD7B00039934B /* Sources */,
+				C3DA73892D7BD7B00039934B /* Frameworks */,
+				C3DA738A2D7BD7B00039934B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3DA738E2D7BD7B00039934B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C3DA738F2D7BD7B00039934B /* LocamarkTests */,
+			);
+			name = LocamarkTests;
+			packageProductDependencies = (
+			);
+			productName = LocamarkTests;
+			productReference = C3DA738C2D7BD7B00039934B /* LocamarkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C3DA73952D7BD7B00039934B /* LocamarkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3DA73A62D7BD7B00039934B /* Build configuration list for PBXNativeTarget "LocamarkUITests" */;
+			buildPhases = (
+				C3DA73922D7BD7B00039934B /* Sources */,
+				C3DA73932D7BD7B00039934B /* Frameworks */,
+				C3DA73942D7BD7B00039934B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3DA73982D7BD7B00039934B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C3DA73992D7BD7B00039934B /* LocamarkUITests */,
+			);
+			name = LocamarkUITests;
+			packageProductDependencies = (
+			);
+			productName = LocamarkUITests;
+			productReference = C3DA73962D7BD7B00039934B /* LocamarkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3DA73742D7BD7AF0039934B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					C3DA737B2D7BD7AF0039934B = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					C3DA738B2D7BD7B00039934B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C3DA737B2D7BD7AF0039934B;
+					};
+					C3DA73952D7BD7B00039934B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = C3DA737B2D7BD7AF0039934B;
+					};
+				};
+			};
+			buildConfigurationList = C3DA73772D7BD7AF0039934B /* Build configuration list for PBXProject "Locamark" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				vi,
+				"zh-Hans",
+			);
+			mainGroup = C3DA73732D7BD7AF0039934B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C3DA737D2D7BD7AF0039934B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3DA737B2D7BD7AF0039934B /* Locamark */,
+				C3DA738B2D7BD7B00039934B /* LocamarkTests */,
+				C3DA73952D7BD7B00039934B /* LocamarkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3DA737A2D7BD7AF0039934B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3DA73B42D7C3E570039934B /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3DA738A2D7BD7B00039934B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3DA73942D7BD7B00039934B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3DA73782D7BD7AF0039934B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3DA73AD2D7C38620039934B /* LocationModel.xcdatamodeld in Sources */,
+				C3DA73D42D7C4F590039934B /* LocationEntity+CoreDataClass.swift in Sources */,
+				C3DA73D62D7C4F590039934B /* LocationEntity+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3DA73882D7BD7B00039934B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3DA73922D7BD7B00039934B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3DA738E2D7BD7B00039934B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3DA737B2D7BD7AF0039934B /* Locamark */;
+			targetProxy = C3DA738D2D7BD7B00039934B /* PBXContainerItemProxy */;
+		};
+		C3DA73982D7BD7B00039934B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3DA737B2D7BD7AF0039934B /* Locamark */;
+			targetProxy = C3DA73972D7BD7B00039934B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C3DA739E2D7BD7B00039934B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C3DA739F2D7BD7B00039934B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3DA73A12D7BD7B00039934B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Locamark/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Locamark/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Chúng tôi cần vị trí của bạn để ghi lại trên timeline";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mitbg000.Locamark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3DA73A22D7BD7B00039934B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Locamark/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Locamark/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Chúng tôi cần vị trí của bạn để ghi lại trên timeline";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mitbg000.Locamark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C3DA73A42D7BD7B00039934B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mitbg000.LocamarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Locamark.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Locamark";
+			};
+			name = Debug;
+		};
+		C3DA73A52D7BD7B00039934B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mitbg000.LocamarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Locamark.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Locamark";
+			};
+			name = Release;
+		};
+		C3DA73A72D7BD7B00039934B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mitbg000.LocamarkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Locamark;
+			};
+			name = Debug;
+		};
+		C3DA73A82D7BD7B00039934B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mitbg000.LocamarkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Locamark;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3DA73772D7BD7AF0039934B /* Build configuration list for PBXProject "Locamark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3DA739E2D7BD7B00039934B /* Debug */,
+				C3DA739F2D7BD7B00039934B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3DA73A02D7BD7B00039934B /* Build configuration list for PBXNativeTarget "Locamark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3DA73A12D7BD7B00039934B /* Debug */,
+				C3DA73A22D7BD7B00039934B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3DA73A32D7BD7B00039934B /* Build configuration list for PBXNativeTarget "LocamarkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3DA73A42D7BD7B00039934B /* Debug */,
+				C3DA73A52D7BD7B00039934B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3DA73A62D7BD7B00039934B /* Build configuration list for PBXNativeTarget "LocamarkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3DA73A72D7BD7B00039934B /* Debug */,
+				C3DA73A82D7BD7B00039934B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C3DA73AB2D7C38620039934B /* LocationModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C3DA73AC2D7C38620039934B /* LocationModel.xcdatamodel */,
+			);
+			currentVersion = C3DA73AC2D7C38620039934B /* LocationModel.xcdatamodel */;
+			path = LocationModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C3DA73742D7BD7AF0039934B /* Project object */;
+}
